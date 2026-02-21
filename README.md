@@ -103,16 +103,16 @@ Não é necessário fazer o upload do dataset nos notebooks, há células inicia
 
 ## 3. Ordem de execução recomendada dos notebooks
 
-### 4.1. `EDA_X_Ray.ipynb`
+### 3.1. `EDA_X_Ray.ipynb`
 
 * Objetivo: Análise Exploratória e visualização de amostras do dataset.
 
-### 4.2. `Tratamento_de_dados_X_ray.ipynb`
+### 3.2. `Tratamento_de_dados_X_ray.ipynb`
 
 * Objetivo: Limpeza e tratamento dos dados. 
 * Neste notebook, será baixado um zip contendo os dados tratados, aceitar o download é opcional, pois o dataset tratado já está salvo no GitHub e no drive.
 
-### 4.3. `Modelagem_Final_X_ray.ipynb`
+### 3.3. `Modelagem_Final_X_ray.ipynb`
 
 * Objetivo: treinamento, validação e avaliação do modelo.
 * Neste dataset, um arquivo csv será baixado no final das execuções, contendo a saída de submissão desejada para o Kaggle. Não é necessária a tomada de qualquer ação adicional além da permissão de download.
