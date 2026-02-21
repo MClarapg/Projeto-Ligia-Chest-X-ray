@@ -75,7 +75,7 @@ Opções:
 * 1. Clonar via git:
 
 ```bash
-git clone https://github.com/MClarapg/Projeto-Ligia---Chest-X-ray.git
+git clone https://github.com/MClarapg/Projeto-Ligia-Chest-X-ray.git
 ```
 
 * 2. Ou baixar ZIP:
