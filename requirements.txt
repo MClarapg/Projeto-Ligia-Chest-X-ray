@@ -1,0 +1,50 @@
+# ============================================================
+# REQUISITOS PARA REPRODUÇÃO DO PROJETO
+# Sistema de Visão Computacional para Diagnóstico de Pneumonia
+# ============================================================
+# Gerado para o projeto: Detecção Probabilística de Pneumonia em Raio-X
+# Data: 2025
+# Python: 3.10+
+# ============================================================
+
+# Deep Learning Framework
+tensorflow==2.15.0
+keras==2.15.0
+
+# Processamento de Imagens
+pillow==10.2.0
+opencv-python==4.9.0.80
+
+# Computação Numérica e Análise de Dados
+numpy==1.26.3
+pandas==2.1.4
+
+# Visualização
+matplotlib==3.8.2
+seaborn==0.13.1
+
+# Machine Learning e Métricas
+scikit-learn==1.4.0
+
+# Conversão de Modelos (opcional)
+tf2onnx==1.16.1
+
+# Utilidades
+tqdm==4.66.1
+
+# ============================================================
+# NOTAS DE INSTALAÇÃO
+# 
+# 1. Para instalar todas as dependências:
+#    pip install -r requirements.txt
+#
+# 2. Se houver conflito com TensorFlow no Apple Silicon (M1/M2):
+#    pip install tensorflow-metal
+#
+# 3. Para GPU NVIDIA, certifique-se de ter:
+#    - CUDA Toolkit 11.8
+#    - cuDNN 8.6
+#
+# 4. No Google Colab, adicione o flag --break-system-packages:
+#    pip install -r requirements.txt --break-system-packages
+# ============================================================
